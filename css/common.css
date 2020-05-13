@@ -1,0 +1,32 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+/*去掉图片的边框*/
+img{
+    border:0
+    }
+
+/*3) 去掉ul前面的小点*/
+ul,ol{
+    list-style:none
+    }
+
+/*4) 去掉input标签默认的padding-top，padding-bottom，border*/
+input{
+    padding-top:0;
+    padding-bottom:0;
+    border:none
+    }
+
+/*5) 去掉a标签的下划线*/
+a{
+    text-decoration: none;
+}
+
+/*6) 给body设置一个统一的字体样式和背景颜色*/
+
+body {
+    font: normal normal 12px "宋体";color: #4c4c4c;background-color: #fae8c8;
+    }
+
+/*7) 左右浮动，清除浮动*/
+
+.fl {float: left;}.fr {float: right;}.clearfix:after {content: "";height: 0;line-height: 0;display: block;visibility: hidden;clear: both;}.clearfix {zoom: 1;}
